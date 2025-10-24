@@ -17,6 +17,9 @@ class MinrepoData extends Model
         'differential_medals',
         'game_count',
         'payout_rate',
+        'bb_count',
+        'rb_count',
+        'art_count',
     ];
 
     protected $casts = [
@@ -24,6 +27,9 @@ class MinrepoData extends Model
         'differential_medals' => 'integer',
         'game_count' => 'integer',
         'payout_rate' => 'decimal:2',
+        'bb_count' => 'integer',
+        'rb_count' => 'integer',
+        'art_count' => 'integer',
     ];
 
     /**
